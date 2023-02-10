@@ -1,0 +1,69 @@
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url("reset.css");
+
+/* ====================== ШРИФТИ =============================== */
+
+/*----------------- Підключення шрифтів ----------------------- */
+
+/* Google Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Subrayada:regular,700&display=swap);
+
+
+/* Підключення вручну */
+
+@font-face {
+    font-family: 'jasmine';
+    src: url('..//fonts/jasmine-Regular.woff2') format('woff2'),
+        url('..//fonts/jasmine-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+	font-family: "Montserrat", sans-serif ;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgb(13, 50, 38);
+}
+
+.text1 {
+	font-family: "jasmine";
+	text-indent: 45px;
+	text-transform: capitalize;
+	
+}
+
+
+.title {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+.title {
+	/* color: green; */
+	color: #1f7909;
+	/* color: rgba(55, 168, 51, 0.5); - прозорість */
+}
+
+
+.text2 {
+	text-align: justify;
+	text-decoration: underline;
+}
+
+
+.text {
+	text-shadow: 2px 2px 5px #000, -2px -2px 2px red;
+}
+
+
+.text3 {
+	font-size: 12px;
+	line-height: 1.7;
+}
+
+
