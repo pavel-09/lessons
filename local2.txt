@@ -1,0 +1,3 @@
+Hello.
+This is local file.txt.
+My name is Pavel
