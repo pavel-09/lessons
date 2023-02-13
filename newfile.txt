@@ -1,0 +1,2 @@
+This is new file.txt
+My name is Pavel.
