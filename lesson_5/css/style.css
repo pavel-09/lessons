@@ -1,28 +1,22 @@
 /* ======================================================== */
 /* --------------- CSS-властивості блоків ----------------- */
 /* ======================================================== */
-div.zagolovok
+body{
+	font-family: "Popins", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:rgba(108, 117, 125, 1);
+}
+div.container
 {
 	padding: 30px 0 0;
-
 }
-.htitle{
-	border: 1px solid black;
-	font-family: "Popins";
-	font-weight: 700;
-	font-size: 25px;
-	line-height: 40px;
-	width: 400px;
-	height: 80px;
-	display: inline-block;
-	margin: 0 0 0 312px;
-	
+div.title
+{
+	border: black 1px solid;
+	margin: 0;
 }
-.text > p {
-	font-family: "Popins";
-	font-size: 14px;
-	color: rgba(108, 117, 125,1);
 
-
-
-}
