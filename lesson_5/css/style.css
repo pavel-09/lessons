@@ -42,18 +42,21 @@ body{
 	margin: 0 0 40px 0;
 	max-width: 605px;
 }
-/* .skroll {
+ .skroll {
 	height: 100px;
 	overflow: auto;
-} */
-
+ }
 .image {
 	max-width: 100%;
-	margin:0 0 80px 0;
+	margin-bottom: 80px;
 }
-.small-image{
+.small-image {
 	font-size:0;
 }
 .image-1 {
-	margin:0 30px 0 0;
+	margin:0 30px 80px 0;
 }
+.image-2 {
+	margin: 0 0 80px 0;
+}
+
