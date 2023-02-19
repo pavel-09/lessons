@@ -30,22 +30,35 @@ body
 }
 .article_text-block{
 	max-width: 816px;
-	margin: 0 auto;
+	margin: 0 auto 80px;
+}
 
-
+.article_text-block p {
+	line-height: 1.78; /*178.571429%; /* 25/14 */
+	margin-bottom: 30px;
 }
 
 .article_title{
 	color: #212529;
 	font-size: 25px;
 	line-height: 1.6; /*160%; /* 40/25 */
+	margin-bottom: 40px;
+	font-weight: 700;
+	max-width: 605px;
 
 }
 .article_image{
+	max-width: 100%;
+	margin-bottom: 80px;
 
 }
 .article_images{
+	font-size: 0px;
+	margin-bottom: 80px;
+}
 
+.article_image1{
+	margin-right: 30px;
 }
 
 
