@@ -66,6 +66,7 @@ body
 	border-right:4px dashed red;
 	border-bottom: 5px double green;
 	border-left: 4px dotted yellow;
+	padding:15px;
 }
 
 .test1{
@@ -75,7 +76,7 @@ body
 	border-left:2px dotted orangered;
 	background-color: bisque;
 	border-radius: 14px;
-}
+	}
 .test2{
 	background-color: aqua;
 	margin: 15px 0 15px 0;
@@ -97,43 +98,34 @@ body
 	height: 200px;
 	background: aliceblue;
 	border-radius: 50%;
-	margin:0 auto;
-	
+	margin:0 313px 25px 313px;
+
 }
-test5{
-	margin: 0 auto;
+.test5 {
+	background: rgb(67, 208, 96);
+	opacity: 0.75;
+	line-height: 1.9;
+}
+.shadow {
+	margin-top: 10px;
+	background: #fc0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding:10px;
+}
+.sh {
+	margin-top: 10px;
+	line-height: 1.8;
+	background: #43d117;
+	padding:5px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px 0 rgb(121, 80, 162);
+	box-shadow:inset 0px 0 20px 0 rgb(108, 5, 5);
+	margin-bottom: 50px;
+	
 }
 /* ======================================================== */
 /* ---------- CSS-властивості оформлення блоків ----------- */
 /* ======================================================== */
-
-
-.inline-block {
-	/* border: 5px solid red; */
-}
-
-
-.block {
-	/* 
-	border-radius: 20px;
-	 */
-
-	/* overflow: hidden; */
-}
-.inline {
-	/* border-radius: 50px; */
-}
-.inline-block {
-	/* border-radius: 50%; */
-}
-/*
-.circle {
-	width: 200px;
-	height: 200px;
-	background-color: purple;
-	border-radius: 50%;
-}
-*/
 
 /*
 box-shadow
@@ -164,63 +156,3 @@ opacity
 0.5 - прозорість 50%
 */
 
-.block {
-	/* opacity: 0.5; */
-}
-.inline {
-}
-.inline-block {
-}
-
-/*
-visibility
-Управляє відображенням елемента
-visible - (за замовченням) відображає об'єкт
-hidden - ховає об'єкт (з об'єктом не можна взаємодіяти)
-*/
-
-.block {
-	/* visibility: hidden; */
-}
-.inline {
-}
-.inline-block {
-}
-
-/* 
-Різниця між:
-visibility: hidden;
-opacity: 0;
-display: none;
-*/
-/*
-.dif {
-	background-color: purple;
-	padding: 15px;
-	color: #fff;
-}
-.link {
-	color: yellow;
-}
-*/
-
-/* Прикол з тінями */
-/*
-.button {
-	display: inline-block;
-	padding: 10px;
-	background-color: purple;
-	color: #fff;
-	border-radius: 15px;
-	border: 5px solid green;
-	box-shadow: 0 5px 0 0 #000;
-	margin-bottom: 20px;
-	position: relative;
-	top: 0;
-	transition: all 0.3s;
-}
-.button:hover {
-	top: 3px;
-	box-shadow: 0 2px 0 0 #000;
-}
-*/
