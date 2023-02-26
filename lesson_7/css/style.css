@@ -1,0 +1,387 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Inter:400,700&display=swap);
+
+.zagolovok {
+	font-family: "Popins", sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.7; /* 20/12 */
+	color: #E5E5E5;
+	background-image: url(../img/maket.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+
+.zagolovok_text1 {
+	padding:330px 0 100px 100px;
+}
+
+.zagolovok_text1 > h1 {
+	font-family: "Poppins",sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.6; /* 40px/25 */
+	color: #F8F9FA;
+	max-width: 605px;
+}
+
+.container_middle {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 150px;
+	padding-bottom: 150px;
+    background: #F0F4EB url("../img/fon.png") 50% 0 / 300px no-repeat fixed;
+
+}
+
+
+.container_block {
+	max-width: 1600px;
+	
+	padding: 0 auto;
+
+	/* padding-left: 100px; */
+}
+
+.container_block_title
+{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+.container_block1 {
+	color: #637381;
+}
+
+.first_list {
+	font-size: 0;
+    margin-bottom: 60px;
+}
+
+.first_list > li, 
+.second_list > li
+
+{
+display: inline-block;
+vertical-align: top;
+font-size: 16px;
+line-height: 20px;
+}
+
+.first_list_one
+{
+margin-right: 136px;
+}
+
+.first_list_one,
+.second_list_one
+{
+font-size: 0
+}
+
+.first_list_one_circle > li
+{
+padding-left: 18px;
+background: transparent url("../img/11.svg") 0 5px / 8px no-repeat;
+}
+
+.first_list_two,
+.second_list_two,
+.second_list_one
+{
+margin-right: 91px;
+}
+
+.first_list_two_check > li
+{
+padding-left: 29px;
+background: transparent url("../img/12.svg") 0 0 / 19px no-repeat;
+min-height: 20px;
+}
+
+
+.first_list_three_check > li
+{
+padding-left: 29px;
+background: transparent url("../img/13.svg") 0 0 / 19px no-repeat;
+min-height: 20px;
+}
+
+.second_list{
+	font-size: 0;
+}
+
+.second_list_one_cross > li
+{
+padding-left: 29px;
+background: transparent url("../img/21.svg") 0 0 / 19px no-repeat;
+min-height: 20px;
+}
+
+.second_list_two_arrow > li
+{
+padding-left: 30px;
+background: transparent url("../img/22.svg") 0 5px / 19px no-repeat;
+}
+
+.second_list_three_star > li
+{
+padding-left: 28px;
+background: transparent url("../img/23.svg") 0 0 / 18px no-repeat;
+}
+
+
+.down {
+	font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #637381;
+    padding-top: 81px;
+    padding-bottom: 83px;
+    background: linear-gradient(295deg, rgba(215,224,248,0) 0%, rgba(215,224,248,1) 33%, rgba(215,224,248,0) 33%), linear-gradient(295deg, rgba(230,236,252,0) 0%, rgba(230,236,252,1) 37%, rgba(230,236,252,0) 37%) #F4F7FF;
+}
+
+.down__container {
+	max-width: 1300px;
+} 
+
+[class*="__container"] 
+{
+max-width: 1270px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.down__text-box {
+    display: inline-block;
+    max-width: 570px;
+    margin-right: 179px;
+    vertical-align: middle;
+}
+
+.text-box__text {
+    margin-bottom: 35px;
+}
+
+.text-box__cost {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3056D3;
+    margin-bottom: 13px;
+}
+
+.text-box__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #212B36;
+    margin-bottom: 15px;
+}
+
+.text-box__button {
+    display: inline-block;
+    background-color: #3056D3;
+    border-radius: 30px;
+    color: #FFFFFF;
+    height: 44px;
+    text-align: center;
+}
+
+.text-box__button a {
+    padding: 10px 30px;
+}
+
+.text-box__link {
+    display: inline-block;
+}
+
+.down__image-block {
+    display: inline-block;
+}
+
+.down__image {
+    vertical-align: middle;
+}
+
+
+
+
+
+
+/* 
+.container_block1 {
+	margin-top: 50px;
+} */
+
+/* .container_block > h2 {
+	font-family: "Inter", sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 1.07;
+	color: #212B36;
+} */
+
+/* .container_block1_ul1
+{
+font-family: Inter;
+font-size: 16px;
+/* font-weight: 700;
+line-height: 0.93; /* 15px/16 */
+/*color: #637381;
+} */
+
+/* .container_block1_ul1 > li
+{
+	background-image: url(../img/11.png);
+	background-repeat: no-repeat;
+	padding-left:18px; */
+	/* padding-top: 8px; */
+	/* padding-bottom: 16px;
+	min-height: 8px;
+} */
+
+/* 
+.container_block2,  
+.container_block1_ul2,
+.container_block1_ul3
+{
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 1; /* 16px/16 */
+/* color:  #637381;
+} */
+
+
+.block {
+	padding: 30px;
+	/* height: 1000px; */
+
+	/* Окремі властивості */
+
+	/* Визначає колір фону елемента */
+	/* background-color: rgba(0, 128, 0, 0.5); */
+
+	/* 
+	Встановлює фонове зображення елемента 
+	або задає градієнтну заливку 
+	!! Зображення НЕ встановлює розміри об'єкту
+	*/
+	/* background-image: url("../img/01.png"); */
+	/* background-image: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%); */
+	/* Генератор градієнту https://cssgradient.io/ */
+
+	/* Визначає, як повторюватиметься фонове зображення */
+
+	/* Зображення-паттерн */
+	/* background-image: url("../img/repeat.jpg"); */
+
+	/* (за замовченням) */
+	/* background-repeat: repeat; */
+	/* Не повторяти */
+	/* background-repeat: no-repeat; */
+	/* Повтор по горизонталі */
+	/* background-repeat: repeat-x; */
+	/* Повтор по вертикалі */
+	/* background-repeat: repeat-y; */
+
+	/*
+	Задає початкове положення фонового зображення,
+	де перше значення (відсотки, px, слово) 
+	визначає розташування по горизонталі,
+	друге – вертикалі.
+
+	
+
+	0 0 (або left top) - за замовченням 
+	center
+	top
+	left 
+	bottom
+	right
+	*/
+
+	/*
+	background-image: url("../img/image.jpg");
+	background-repeat: no-repeat;
+	*/
+	/* background-position: горизонталь вертикаль */
+	/* background-position: 0 0; */
+
+	/* 
+	Значення у відсотках:
+	Горизонтальне залежить від штрини об'єкту
+	Верстикальне від висоти об'єкту
+	Значення 50% (center) розмістить зображення таким чином, 
+	що центральна точка зображення буде співпадати 
+	з центральною точкою об'єкту
+	*/
+
+	/* 
+	Встановлює, чи прокручуватиметься 
+	фонове зображення разом із вмістом елемента.
+
+	scroll - (за замовченням) скролиться разом з блоком
+	fixed - фонове зображення НЕ скролиться разом з блоком
+	*/
+
+	/*
+	background-image: url("../img/image.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	*/
+
+	/*
+	Масштабує фонове зображення згідно з заданими розмірами. 
+	У цифрах, де перше значення (відсотки, px) визначає ширину,
+	друге – висоту. Або спеціальним значенням.
+
+	contain - Масштабує зображення зі збереженням пропорцій таким чином, 
+	щоб картинка повністю помістилася всередину блоку. 
+	Тобто щонайменше картинки
+	cover - Масштабує зображення зі збереженням пропорцій так, 
+	щоб його ширина або висота дорівнювала ширині або висоті блоку. 
+	Тобто з більшого боку картинки
+
+	*/
+
+	/*
+	background-image: url("../img/01.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	*/
+
+	/* background-size: ширина висота */
+	/* background-size: auto auto; */
+	/* background-size: cover; */
+
+	/* 
+	Універсальна властивість - background
+	Властивість background
+	Ця універсальна CSS властивість дозволяє одночасно 
+	задати кілька параметрів фону,
+	а саме визначити колір,  встановити фонове зображення, 
+	задати початкове положення фонового зображення,
+	визначити як повторюватиметься фонове зображення, 
+	встановити чи прокручуватиметься фонове зображення 
+	разом із вмістом і масштабувати фонове зображення 
+	відповідно до заданих розмірів.
+	Також значенням властивості background може 
+	бути вказана градієнтна заливка фону.
+	*/
+
+	/* background: колір зображення(градієнт) позиція / розмір повтор закріплення */
+	/* background: green url("../img/image.jpg") center / contain no-repeat scroll; */
+
+	/* Встановлення кількох фонових зображень для блоку */
+
+	/* background: url("../img/icons/check.svg") 0 0 no-repeat, url("../img/image.jpg") 50% no-repeat, rgba(0, 128, 0, 0.438) url("../img/01.png") center / auto no-repeat; */
