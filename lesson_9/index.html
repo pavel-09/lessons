@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 9</title>
+</head>
+
+<body>
+	<header>
+	</header>
+	<main>
+
+		1) Сделать изображения с описанием в одну строку.
+		2) Оптимизировать png и JPG
+		На ресурсах:
+		https://tinypng.com/
+		3) Преобразовать в webp на ресурсе:
+		https://convertio.co/jpeg-webp/
+		4) Сделать два изображения png или jpg оптимизированное и webp.
+		<div class="content">
+			<div class="icons1">
+				<img class="svg1" src="img/building.svg" alt="Иконка здания">
+				<img class="svg1" src="img/phonesvg.svg" alt="Иконка телефона">
+				<span class="text">
+					Это иконки в формате svg. Формат векторный. В оптимизации нет необходимости.
+				</span>
+			</div>
+			<div class="icons2">
+				<div class="icons21">
+					<img class="png1" src="img/Blog Image2_optimize.png" alt="Оптимизированная картинка png">
+					<span class="text1">Это оптимизированные растровые изображения в формате png. Все изображения были
+						конвертированны на ресурсе https://tinypng.com/ Lorem ipsum, dolor sit amet consectetur
+						adipisicing elit. Necessitatibus pariatur corrupti nihil. Ullam officiis iste accusantium
+						suscipit officia doloribus. Omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					</span>
+				</div>
+				<img class="png1" src="img/Blog Image3_optimize.png" alt="Оптимизированная картинка png">
+				<span class="text1">Это оптимизированные растровые изображения в формате png. Все изображения были
+					конвертированны
+					на ресурсе https://tinypng.com/</span>
+
+				<img class="png1" src="img/Blog Image_optimize.png" alt="Оптимизированная картинка png">
+				<span class="text1">Это оптимизированные растровые изображения в формате png. Все изображения были
+					конвертированны
+					на ресурсе https://tinypng.com/</span>
+			</div>
+		</div>
+		</div>
+
+
+		<!-- 
+				Іконки - невеликі прості зображення, які підсилюють ефект тексту, або самостійно несуть певну інформацію 
+				У більшості випадків це векторні зображення. 
+				(SVG)
+				Іконки можуть інтегруватись як тегом IMG так і через CSS (background та інші)
+			-->
+		<!-- 
+				Елементи дизайну - веркторні, або растрові зображення (можливо з прозорістю) які є частиною дизайну сайту.
+				Можуть бути як векторні так і растрові 
+				(SVG, JPG/PNG -> WEBP)
+				Елементи дизайну, частіше всього, інтегруються через CSS (background та інші)
+			 -->
+		<!-- 
+				Контентні зображення - зображення, які і є контентом сайту
+				У більшості випадків це растрові зображення (фотографії)
+				(JPG/PNG -> WEBP)
+				Усі контентні зображення виводяться тегом IMG
+			  -->
+		<!-- Ретина дісплеї -->
+		<!-- <img class="image" src="img/girl.webp" srcset="img/girl.webp 1x, img/girl_x2.webp 2x" alt="Girl"> -->
+	</main>
+	<footer></footer>
+</body>
+
+</html>
