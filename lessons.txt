@@ -4,3 +4,28 @@ https://pavel-09.github.io/lessons/lesson_6/
 
 https://sokolikjr.github.io/lessons/lesson_6/
 
+
+
+
+https://pavel-09.github.io/lessons/lesson_14/
+
+<div> <!-- FLEX -->
+  <div> <!-- FLEX -->
+    <div>Categories</div>
+    <div>+</div>
+  </div>
+
+  <div> <!-- FLEX -->
+    <div>3 column</div>
+    <div>4 column</div>
+  </div>
+</div>
+ А вообще, кнопка Categories + можно сделать 1 кнопкой, а + через псевдоэлемент сделать) И получится так 
+<div> <!-- FLEX -->
+  <button>Categories</button> 
+
+  <div> <!-- FLEX -->
+    <button>3 column</button>
+    <button>4 column</button>
+  </div>
+</div>
