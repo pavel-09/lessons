@@ -1,0 +1,276 @@
+@import url("reset.css");
+@import url("common.css");
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,regular,500,700&display=swap);
+body {
+	font-family: "Popins", sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color: #495057;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+.page {
+}
+.page__container {
+	max-width: 1270px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+.page__title {
+	display: flex;
+	justify-content: space-between;
+	font-family: "Popins", sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 2.08; /* 25px/12 */
+	color: #495057;
+}
+.page__title--left {
+	display: flex;
+}
+.page__title--left--categories {
+}
+.page__title--left--image {
+	margin: 8px;
+}
+.page__title--right {
+	display: flex;
+	/* justify-content: end; */
+}
+.page__title--right--three {
+	margin-right: 20px;
+}
+.page__title--right--four {
+	color: #495057;
+	opacity: 0.5;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	font-family: "Popins", sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 20px;
+	color: #495057;
+}
+.top {
+	display: flex;
+	justify-content: space-between;
+}
+.top__left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 32px;
+}
+.down {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	/* align-items: center;
+	position: relative;
+	top: 600px;
+	left: -1250px; */
+}
+
+.down__left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 32px;
+}
+.down__center {
+	display: flex;
+	flex-direction: column;
+	margin-right: 32px;
+}
+
+.down__right {
+	display: flex;
+	flex-direction: column;
+}
+
+.top__left--up {
+}
+[class*="--inscription"] {
+	display: inline-block;
+	position: relative;
+	top: 55px;
+	left: 298px;
+}
+
+.top__left--up--inscription {
+	/* display: inline-block;
+	position: relative;
+	top: 55px;
+	left: 298px; */
+	/* display: inline-block;
+	position: absolute;
+	top: 83px;
+	left: 314px; */
+}
+.top__left--up--image {
+}
+.top__left--down {
+}
+
+[class*="--date"] {
+	margin-top: 33px;
+	margin-bottom: 30px;
+}
+
+.top__left--down--date {
+	/* margin-top: 33px; */
+}
+[class*="--header"] {
+	font-family: "Popins", sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 40px;
+	color: #212529;
+}
+.top__left--down--header {
+	/* font-family: "Popins", sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 40px;
+	color: #212529; */
+}
+[class*="--content"] {
+	margin-top: 20px;
+}
+.top__left--dwon--content {
+}
+[class*="--author"] {
+	margin-top: 35px;
+	margin-bottom: 50px;
+}
+
+.top__left--down--author {
+}
+.top__center {
+	display: flex;
+	flex-direction: column;
+	margin-right: 32px;
+}
+.top__center--up {
+}
+.top__center--up--inscription {
+}
+.top__center--up--image {
+}
+.top__center--down {
+}
+.top__center--down--date {
+}
+.top__center--down--header {
+}
+.top__center--dwon--content {
+}
+.top__center--down--author {
+}
+.top__right {
+	display: flex;
+	flex-direction: column;
+}
+.top__right--up {
+}
+.top__right--up--inscription {
+}
+.top__right--up--image {
+}
+.top__right--down {
+}
+.top__right--down--date {
+}
+.top__right--down--header {
+}
+.top__right--dwon--content {
+}
+.top__right--down--author {
+}
+.down {
+}
+.down__left {
+}
+.down__left--up {
+}
+.down__left--up--inscription {
+}
+.down__left--up--image {
+}
+.down__left--down {
+}
+.down__left--down--date {
+}
+.down__left--down--header {
+}
+.down__left--dwon--content {
+}
+.down__left--down--author {
+}
+.down__center {
+}
+.down__center--up {
+}
+.down__center--up--inscription {
+}
+.down__center--up--image {
+}
+.down__center--down {
+}
+.down__center--down--date {
+}
+.down__center--down--header {
+}
+.down__center--dwon--content {
+}
+.down__center--down--author {
+}
+.down__right {
+}
+.down__right--up {
+}
+.down__right--up--inscription {
+}
+.down__right--up--image {
+}
+.down__right--down {
+}
+.down__right--down--date {
+}
+.down__right--down--header {
+}
+.down__right--dwon--content {
+}
+.down__right--down--author {
+}
+.down-articles {
+	display: flex;
+	justify-content: center;
+	height: 100px;
+}
+.down-articles__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Poppins", sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 2.08; /* 25px/12 */
+	height: 40px;
+	width: 179px;
+	color: #fff;
+	background-color: #212529;
+}
