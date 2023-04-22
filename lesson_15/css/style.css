@@ -1,0 +1,253 @@
+@import url("reset.css");
+@import url("common.css");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap");
+
+body {
+	font-family: "Poppins", sans-serif;
+	color: #9c9c9c;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.61; /* 29px/18 */
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+[class*="--image"] {
+	display: flex;
+}
+
+[class*="--titles"] {
+	display: flex;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	font-family: "Poppins", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.41; /* 34px/24 */
+	color: #333333;
+}
+
+[class*="---text"] {
+	display: flex;
+}
+
+.page {
+}
+.page__container {
+}
+.page__up {
+	display: flex;
+	margin-top: 50px;
+}
+.page__up--title {
+	/* display: flex; */
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5; /* 24px/16 */
+	color: #000000;
+	text-transform: uppercase;
+	width: 800px;
+	/* margin-top: 26px; */
+}
+.page__up--title::after {
+	content: "";
+	display: inline-block;
+	margin-bottom: 4px;
+	height: 1px;
+	width: 464px;
+	background-color: #000000;
+	margin-left: 16px;
+}
+/* line:464px */
+
+.page__up--line {
+}
+.page__conference {
+	display: flex;
+	margin-top: 41px;
+	/* justify-content: space-between; */
+}
+.page__conference--image {
+	/* display: flex; */
+}
+.page__information {
+	display: flex;
+	flex-direction: column;
+	margin-left: 70px;
+}
+.page__conference--titles {
+	/* display: flex;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	font-family: "Poppins", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.41; /* 34px/24 */
+	/* color: #333333; */
+}
+
+.page__conference--text {
+	/* display: flex; */
+}
+
+.page__communication {
+	display: flex;
+	margin-top: 41px;
+}
+.page__inform {
+	display: flex;
+	flex-direction: column;
+	margin-left: 70px;
+}
+
+.page__communication--image {
+	/* display: flex; */
+}
+.page__communication--titles {
+	/* display: flex;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	font-family: "Poppins", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.41; 34px/24 */
+	/* color: #333333; */
+}
+.page__communication--text {
+	/* display: flex; */
+}
+.page__planning {
+	display: flex;
+	margin-top: 41px;
+	margin-bottom: 50px;
+}
+.page__data {
+	display: flex;
+	flex-direction: column;
+	margin-left: 70px;
+}
+.page__planning--image {
+}
+.page__planning--titles {
+	/* display: flex;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	font-family: "Poppins", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.41; 34px/24
+	color: #333333; */
+}
+.page__planning--text {
+}
+.page__header {
+	display: flex;
+	justify-content: center;
+	font-family: "Poppins", sans-serif;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1.39; /* 78px/56 */
+	color: #000000;
+	margin-bottom: 30px;
+}
+.page__headers {
+	display: flex;
+	/* justify-content: flex-end;
+	align-items: flex-end; */
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 29px;
+	color: #000000;
+	margin-bottom: 53px;
+	margin-left: 340px;
+	width: 518px;
+	text-align: center;
+}
+
+.page__header {
+}
+.page__head {
+}
+.page__interior-tree {
+}
+.page__content {
+	/* display: flex; */
+}
+.page__projects {
+	display: flex;
+}
+.page__project {
+	display: flex;
+	flex-direction: column;
+	max-width: 584px;
+	margin-right: 32px;
+}
+.page__project--titles {
+}
+.page__project--text {
+}
+.page__project--down {
+	display: flex;
+	margin-top: 60px;
+}
+.page__project--date {
+	display: flex;
+	margin-right: 80px;
+}
+.page__project--author {
+	display: flex;
+}
+.page__design {
+	display: flex;
+	flex-direction: column;
+}
+.page_design--titles {
+}
+.page__design--text {
+	margin-bottom: 30px;
+}
+.page__design--content {
+}
+.page__corridor {
+	display: flex;
+	margin-top: 80px;
+	justify-content: center;
+	margin-bottom: 32px;
+}
+.page__interior {
+	display: flex;
+}
+.page__wall {
+	display: flex;
+	margin-left: 32px;
+}
+.page__hall {
+	display: flex;
+	margin-top: 32px;
+	justify-content: center;
+	margin-bottom: 32px;
+}
+.page__furnute {
+	display: flex;
+}
+.page__halls {
+	display: flex;
+	margin-left: 32px;
+}
